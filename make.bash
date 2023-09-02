@@ -6,13 +6,13 @@ _download () {
 
 	pushd opt/mvcli
 
-	wget https://dl.dell.com/FOLDER06239763M/1/mvcli_5.0.13.1107_A06.zip
-	unzip mvcli_5.0.13.1107_A06.zip
+	wget https://dl.dell.com/FOLDER06354567M/1/mvcli_5.0.13.1109_A00.zip
+	unzip mvcli_5.0.13.1109_A00.zip
 
 	mv x64/cli/{libmvraid.so,mvcli} .
 	chmod +x mvcli
 
-	rm -f mvcli_5.0.13.1107_A06.zip
+	rm -f mvcli_5.0.13.1109_A00.zip
 	rm -rf i386/ x64/
 
 	popd
